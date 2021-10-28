@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding:0;
+    background-image: url(../asset/background.png);
+    background-size: cover;
+}
+
+.header{
+    position: relative;
+    
+}
+
+.gabungan{
+    position: relative;
+    font-size: 18pt;
+    font-family: Montserrat;
+    display: flex;
+    color:white;
+
+}
+.teh1{
+    padding-top: 30px;
+    
+}
+.home a{
+    padding-top: 80px;
+    padding-left: 60px;
+    text-decoration: none;
+    color:white;
+    display: flex;
+
+}
+.home a:hover{
+    color:lightslategray;
+}
+
+.desserts {
+    color:white;
+    display: flex;
+    padding-left: 60px;
+    padding-top: 55px;
+    font-size: 16pt;
+    position: relative;
+}
+.dropdown-items1:hover{
+    color:lightslategray;
+}
+
+.desserts > .dropdown-items1{
+display: none;
+flex-direction: column;
+position: absolute;
+top: 150px;
+}
+
+.desserts:hover > .dropdown-items1{
+    display: flex;
+   color: snow;
+}
+.dropdown-items1 a{
+    color: white;
+}
+.dropdown-items1 a:hover{
+    color: slategrey;
+}
+
+
+.payment{
+    color:greenyellow;
+    display: flex;
+    padding-left: 60px;
+    font-size: 16.5pt;
+    margin-top: 0;
+}
+
+.contact a{
+    text-decoration: none;
+    color:white;
+    display: flex;
+    padding-left: 60px;
+    padding-top: 26px;
+    font-size: 18pt;
+}
+.contact a:hover{
+    color:lightslategray;
+}
+
+
+.beverages{
+    padding-top: 55px;
+    padding-left: 60px;
+    font-size: 16pt;
+    color:white;
+    display: flex;
+    position: relative;
+ 
+}
+
+.dropdown-items:hover{
+    color:lightslategray;
+}
+
+.beverages > .dropdown-items{
+display: none;
+flex-direction: column;
+position: absolute;
+top: 150px;
+}
+.teh{
+    padding-top: 30px;
+}
+.beverages:hover > .dropdown-items{
+    display: flex;
+   color: snow;
+}
+.dropdown-items a{
+    color: white;
+}
+.dropdown-items a:hover{
+    color: slategrey;
+}
+
+.logo .logoo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        width: 200px;
+        padding-left: 30px;
+    }
+    .bebas img{
+
+        width: 750px;
+        height: 400px;
+        margin-left: 550px;
+
+        position: absolute;
+    }
+    
+    .gambarhover:hover{
+        width: 750px;
+        height: 400px;
+        margin-left: 550px;
+     
+        display: inline-block;
+        opacity: 0;
+    }
+      .form{
+         margin-left: 100px ;
+          color: ghostwhite;
+        padding: 50px;
+
+      }
+      .judul{
+          font-size: 30pt;
+          opacity: 75%;
+          font-family: inlanders;
+          letter-spacing: 2mm;
+      } 
+      
+      .form label {
+          display: block;
+          padding-top: 20px;
+        }
+      
+        button,input,textarea {
+          padding: 5px;
+          width: 25%;
+          border: 1px solid #000;
+        }
+      
+        button {
+          background: lightgrey;
+          width: 26%;
+      
+          border: 0;
+        }
+        button:hover, button:focus {
+          background: greenyellow;
+          outline: 0;
+        }
+
+        .footer{
+            background-color: black;
+            color:white;
+        
+            width: 100%;
+            font-family: Montserrat;
+            font-weight:normal;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            margin-top: 100px;
+        }
+
+
+  

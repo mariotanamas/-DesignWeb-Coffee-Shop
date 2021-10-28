@@ -1,0 +1,497 @@
+/*RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*CSS EDITING START */
+
+div{
+	background-color: red;
+	width:100%;
+	font-family: Montserrat ;
+	font-weight: bolder;
+}
+
+.Header ul li{
+	display:inline-block;
+	padding-top: 80px;
+  margin-top: 3px;
+  margin-right:55px;
+  
+}
+
+.Header a{
+  color:white;
+  font-size: 16pt;
+  padding: 0;
+  font-weight:normal;
+}
+
+#homeLink{
+  color:greenyellow;
+  font-weight: bolder;
+  font-size: 18.7pt;
+}
+
+/*BEVERAGE SECTION*/
+#beverages{
+  top:84px;
+  position:absolute;
+  font-weight: bold;
+  font-size: 18.7pt;
+  box-sizing: border-box;
+}
+
+#beverages:hover{
+  color:white;
+}
+
+.beverages{
+  background-color: rgba(0,0,0,0);
+  width: 280px;
+  display: inline-block;
+  padding:0;
+}
+
+.beveragesDrop{
+  position:absolute;
+  display: none;
+  background-color:rgba(0,0,0,0);
+  width: 250px;
+  padding-top: 48px;
+}
+
+.beveragesDrop a{
+  display:block;
+  text-decoration: underline;
+  color:white;
+  margin-bottom: 40px;
+  font-size: 16pt;
+}
+
+.beverages:hover .beveragesDrop{
+  display:block;
+}
+
+/*END OF BEVERAGE SECTION */
+/*DESSERT SECTION*/
+#desserts{
+  position: absolute;
+  top:84px;
+  font-weight: bold;
+  font-size: 18.7pt;
+  box-sizing: border-box;
+}
+
+#desserts:hover{
+  color:white;
+}
+
+.desserts{
+  background-color: rgba(0,0,0,0);
+  width: 280px;
+  display: inline-block;
+  padding:0;
+}
+
+.dessertsDrop{
+  position:absolute;
+  display: none;
+  background-color:rgba(0,0,0,0);
+  width: 250px;
+  padding-top: 48px;
+}
+
+.dessertsDrop a{
+  display:block;
+  text-decoration: underline;
+  color:white;
+  margin-bottom: 40px;
+  font-size: 16pt;
+}
+
+.desserts:hover .dessertsDrop{
+  display:block;
+}
+
+/*END OF DESERT SECTION */
+
+/* payment and contact us */
+#payment{
+  position:absolute;
+  top: 88px;
+  left: 965px;
+}
+
+#contactUs{
+  position:absolute;
+  top:88px;
+  left: 1110px;
+}
+
+/* payment and contact us end*/
+
+a{
+	color:white;
+	font-style: normal;
+	text-decoration: none;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+a:hover{
+	color:lightslategray;
+}
+
+a:checked{
+	color:greenyellow;
+}
+
+.Header img{
+	width:200px;
+	padding-left: 30px;
+	float: left;
+  padding-right: 58px;
+}
+
+.Header{
+	
+	height: 180px;
+	position:absolute;
+	background-color:rgba(0,0,0,0);
+  z-index: 999;
+
+}
+
+.slideshow{
+	width: 100%;
+}
+
+.slideshow img{
+	width:100%;
+}
+
+.content{
+	position:absolute;
+    top: 800px;
+	width:100%;
+    z-index: 1000;
+}
+.content img{
+	width:100%;
+}
+
+
+
+.content .card{
+	background-color:rgba(0,0,0,0);
+	position:absolute;
+	top: 20px;
+	padding-top: 40px;
+	
+}
+
+.content .card h1{
+	font-family: Inlanders;
+	font-weight: bolder;
+	font-size: 50px;
+	padding-left: 110px;
+	color: white;
+}
+
+.content .card .cardOne{
+	margin-top: 30px;
+	width: 350px;
+	background-color: #212121;
+	display: inline-block;
+	margin-right: 30px;
+	margin-left: 110px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 1px;;
+	border-color:white;
+	color:white;
+}
+
+.content .card .cardOne p{
+	font-size: 12px;
+}
+
+.content .card .cardOne h2{
+	font-size: 20px;
+	margin-bottom: 5px;
+	font-weight: bolder;
+}
+
+.content .card .cardOne a{
+	padding: 0px;
+}
+
+.content .card .cardOne .claim{
+	width:180px;
+	height: 40px;
+	margin:auto;
+	line-height: 40px;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: #212121;
+	border-style: solid;
+	border-width: 1px;;
+	border-color:white;
+	color:white;
+}
+
+.content .card .cardTwo{
+	margin-top: 30px;
+	width: 350px;
+	background-color:#212121;
+	display: inline-block;
+	margin-right: 30px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 1px;;
+	border-color:white;
+	color:white;
+}
+
+.content .card .cardTwo p{
+	font-size: 12px;
+}
+
+.content .card .cardTwo h2{
+	font-size: 20px;
+	margin-bottom: 5px;
+	font-weight: bolder;
+}
+
+.content .card .cardTwo a{
+	padding: 0px;
+}
+.content .card .cardTwo .claim{
+	width:180px;
+	height: 40px;
+	margin:auto;
+	line-height: 40px;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-style: solid;
+	border-width: 1px;;
+	border-color:white;
+	background-color: #212121;
+	color:white;
+}
+
+.content .card .cardThree{
+	width: 350px;
+	background-color:#212121;
+	display: inline-block;
+	margin-right: 30px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	padding-top: 13px;
+	border-style: solid;
+	border-width: 1px;;
+	border-color:white;
+	color:white;
+}
+
+.content .card .cardThree p{
+	font-size: 12px;
+}
+
+.content .card .cardThree h2{
+	font-size: 20px;
+	margin-bottom: 5px;
+	font-weight: bolder;
+}
+
+.content .textContent{
+	background-color:rgba(0,0,0,0);
+	width: 300px;
+	text-align: right;
+	margin-left: 980px;
+	margin-top: 230px;
+	padding:10px;
+}
+
+.content .textContent h2{
+	font-family: Inlanders;
+	font-weight: bolder;
+	font-size: 50px;
+	color: white;
+}
+
+.content .textContent p{
+	font-family: Comic sans MS;
+	font-weight: bolder;
+	font-size: 20px;
+	color: white;
+}
+
+.footer{
+	background-color: black;
+	color:white;
+	width: 100%;
+	font-family: Segoe UI;
+	font-weight:normal;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+    position: absolute;
+    top: 2400px;
+    z-index: 99999;
+}
+
+
+/*image slider*/
+.img-slider{
+    position: relative;
+    width: 100%;
+    background-color: black;
+}
+  
+  .img-slider .slide{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    clip-path: circle(0% at 0 50%);
+    background-color: black;
+  }
+  
+  .img-slider .slide.active{
+    clip-path: circle(150% at 0 50%);
+    transition: 2s;
+    transition-property: clip-path;
+    background-color: black;
+    
+  }
+  
+  .img-slider .slide img{
+    z-index: 1;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+
+  
+  .img-slider .navigation{
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    top: 750px;
+    left: 50%;
+    justify-content: center;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0);
+  }
+  
+  .img-slider .navigation .btn{
+    background: rgba(255, 255, 255, 0.5);
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+
+  }
+  
+  .img-slider .navigation .btn.active{
+    background: white;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  }
+
+
+  /*JQUERY SLIDER CONTENT */
+  .jquerySlider{
+	  position: absolute;
+	  top: 1600px;
+	  z-index:99999;
+  }
+
+  .jquerySlider img{
+	  width: 100%;
+  }
+
+#JQslider{  
+	POSITIOn: absolute;
+	z-index: 999999;
+	top: 70px;
+	left: 70px;
+    width:900px;  
+    height:400px;  
+    margin: 10%;  
+    margin-left:15%;  
+    overflow:hidden;  
+}  
+.JQslides{  
+    display:block;  
+    width:6000px;  
+    height:400px;  
+    margin-left:0;  
+    padding:0;  
+}  
+.JQslide{  
+    float:left;  
+    list-style-type:none;  
+    width:900px;  
+    height:400px;  
+}  
+.JQslides img{  
+    width:900px;  
+    height:400px;  
+} 

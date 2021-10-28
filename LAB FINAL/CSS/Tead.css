@@ -1,0 +1,287 @@
+body{
+    margin: 0;
+    padding:0;
+    background-image: url(../asset/background.png);
+    background-size: cover;
+}
+
+.header{
+    position: relative;
+    
+}
+
+.gabungan{
+    position: relative;
+    font-size: 18pt;
+    font-family: Montserrat;
+    display: flex;
+    color:white;
+
+}
+
+.home a{
+    padding-top: 80px;
+    padding-left: 60px;
+    text-decoration: none;
+    color:white;
+    display: flex;
+
+}
+.home a:hover{
+    color:lightslategray;
+}
+
+.desserts {
+    display: flex;
+    padding-left: 60px;
+    padding-top: 55px;
+    color:greenyellow;
+    font-size: 16pt;
+    position: relative;
+}
+.dropdown-items1:hover{
+    color:lightslategray;
+}
+
+.desserts > .dropdown-items1{
+display: none;
+flex-direction: column;
+position: absolute;
+top: 150px;
+}
+
+.desserts:hover > .dropdown-items1{
+    display: flex;
+   color: snow;
+}
+.dropdown-items1 a{
+    color: white;
+}
+.dropdown-items1 a:hover{
+    color: slategrey;
+}
+
+
+.contact a{
+    text-decoration: none;
+    color:white;
+    display: flex;
+    padding-left: 60px;
+    padding-top: 26px;
+    font-size: 18pt;
+}
+.contact a:hover{
+    color:lightslategray;
+}
+
+.payment a{
+    text-decoration: none;
+    color:white;
+    display: flex;
+    padding-left: 60px;
+    padding-top: 26px;
+    font-size: 18pt;
+}
+.payment a:hover{
+    color:lightslategray;
+}
+
+.beverages{
+    padding-top: 55px;
+    padding-left: 60px;
+    font-size: 16pt;
+    display: flex;
+    position: relative;
+ 
+}
+
+.dropdown-items:hover{
+    color:lightslategray;
+}
+
+.beverages > .dropdown-items{
+display: none;
+flex-direction: column;
+position: absolute;
+top: 150px;
+}
+.teh{
+    padding-top: 30px;
+}
+.beverages:hover > .dropdown-items{
+    display: flex;
+   color: snow;
+}
+.dropdown-items a{
+    color: white;
+}
+.dropdown-items a:hover{
+    color: slategrey;
+}
+
+.logo .logoo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        width: 200px;
+        padding-left: 30px;
+    }
+
+.sub h2{
+    font-size: 20pt;
+    margin-top: 50px;
+position: relative;
+    font-family: inlanders;
+    color: white;
+    letter-spacing: 0.5mm;
+
+    display: flex;
+    
+}
+.sub1 h3{
+    font-size: 10pt;
+
+position: relative;
+    font-family: comic sans ms;
+    color: white;
+    opacity: 0.5;
+    letter-spacing: 0.5mm;
+    display: flex;
+    
+}
+    .pindah{
+        margin-left: 100px;
+    }
+    .test{
+        display: flex;
+        flex-direction: row;
+    }
+    .w1 img{
+    width: 300px;
+    height: 150px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    opacity: 0.3;
+
+    }
+    .w1 img:hover{
+        opacity: 1;
+
+    }
+    .w1 h3{
+    color: white;
+    margin-left: 90px ;
+    font-size: 15pt;
+    font-family: inlanders;
+    letter-spacing: 0.5mm;
+    }
+    .w2 img{
+        width: 300px;
+        height: 150px;
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        opacity: 0.3;
+    }
+    .w2 img:hover{
+        opacity: 1;
+    }
+    .w2 h3{
+        color: white;
+        margin-left: 100px ;
+        font-size: 15pt;
+        font-family: inlanders;
+        letter-spacing: 0.5mm;
+        }
+    .w3 img{
+            width: 300px;
+            height: 150px;
+            padding-top: 30px;
+            padding-left: 50px;
+            padding-right: 50px;
+            opacity: 0.3;
+    }
+    .w3 img:hover{
+        opacity: 1;
+    }
+    .w3 h3{
+     color: white;
+     margin-left: 95px ;
+     font-size: 15pt;
+     font-family: inlanders;
+     letter-spacing: 0.5mm;
+    }
+    
+     .test2{
+        display: flex;
+        flex-direction: row;
+        padding-top: 50px;
+    }
+    .w4 img{
+            width: 300px;
+            height: 150px;
+            padding-top: 30px;
+            padding-left: 50px;
+            padding-right: 50px;
+            opacity: 0.3;
+    }
+    .w4 img:hover{
+        opacity: 1;
+    }
+    .w4 h3{
+        color: white;
+        margin-left: 140px ;
+        font-size: 15pt;
+        font-family: inlanders;
+        letter-spacing: 0.5mm;
+    }
+    
+    .w5 img{
+            width: 300px;
+            height: 150px;
+            padding-top: 30px;
+            padding-left: 50px;
+            padding-right: 50px;
+            opacity: 0.3;
+    }
+    .w5 img:hover{
+        opacity: 1;
+    }
+    .w5 h3{
+        color: white;
+        margin-left: 105px ;
+        font-size: 15pt;
+        font-family: inlanders;
+        letter-spacing: 0.5mm;}
+    
+    .w6 img{
+            width: 300px;
+            height: 150px;
+            padding-top: 30px;
+            padding-left: 50px;
+            padding-right: 50px;
+            opacity: 0.3;
+    }
+    .w6 img:hover{
+        opacity: 1;
+    }
+    .w6 h3{
+        color: white;
+        margin-left: 135px;
+        font-size: 15pt;
+        font-family: inlanders;
+        letter-spacing: 0.5mm;}
+
+    .footer{
+            background-color: black;
+            color:white;
+        
+            width: 100%;
+            font-family: Montserrat;
+            font-weight:normal;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            margin-top: 100px;
+        }
